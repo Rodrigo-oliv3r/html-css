@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+Tudo que for "id" em HTML será identificado como "#" em css (Só podde existir um elemento por paginas)
+Tudo que for "class" em HTNL será identificado como "." em CSS (Pode existir varios elementos)
+*/
+
+body{
+    background-color: rgb(144, 211, 156);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(60, 87, 65);
+}
+#principal{
+    text-align: center;
+    background-color: rgb(60, 87, 65);
+    color: aliceblue;
+}
+
+h2{
+    color: rgb(8, 129, 30);
+}
+
+.basico{
+    color: rgb(60, 87, 65);
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(243, 226, 79);
+    font-weight: bold;
+}
+.avancado{
+    color: rgb(248, 15, 15);
+    font-weight: bold;
+}
+.destaque{
+    background-color: rgba(201, 228, 51, 0.612);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        background-color: darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+       margin: 0px;
+    }
+    header{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav{
+        background-color: rgb(126, 126, 126);
+        padding: 3px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.34);
+    }
+    nav > a {
+        color: aliceblue;
+        margin-right: 40px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    main{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 40px;
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.454);
+    }
+    article {
+        background-color: darkgray;
+        padding: 5px;
+        text-align: justify;
+    }
+
+    article > aside{
+        background-color: rgb(72, 72, 72);
+    }
+
+    footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 0px;
+    }
+    
+    /*
+    #bola{
+        background-color: aliceblue;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    */
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <P>Esportes Politica e Tecnologia</P>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae ullam fugit vitae quod voluptas deleniti repellendus qui accusantium! Veniam exercitationem expedita reprehenderit atque autem modi repellendus minus accusantium a.</p>
+                <aside>
+                    <p>artigo escrito por Rodrigo de Oliveira Peres</p>
+                </aside>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestiae ullam fugit vitae quod voluptas deleniti repellendus qui accusantium! Veniam exercitationem expedita reprehenderit atque autem modi repellendus minus accusantium a.</p>
+                <aside>
+                    <p>artigo escrito por Rodrigo de Oliveira Peres</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por RdProduções</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
